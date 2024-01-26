@@ -1,0 +1,23 @@
+.container__menu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container__menu-box {
+    border: 3px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60%;
+    height: 70px;
+    background-color: #55fb06;
+}
+
+.container__menu-box a {
+    font-weight: bolder;
+    color: white;
+    font-size: 32px;
+}

@@ -1,0 +1,19 @@
+<div class="inputs">
+
+    <div class="box">
+        <input type="text" value="{{nome}}" [(ngModel)]="nome" placeholder="‎ ‎ Nome: ">
+        <input type="text" value="{{cpf}}" [(ngModel)]="cpf" placeholder="‎ ‎ CpfCnpf: ">
+    </div>
+
+    <div class="box">
+        <input type="text" value="{{dataNascimento}}" [(ngModel)]="dataNascimento" placeholder="‎ ‎ Data de nascimento: dd/mm/aa: ">
+        <input type="text" value="{{genero}}" [(ngModel)]="genero" placeholder="‎ ‎ Gênero: ">
+    </div>
+
+    <div class="box1">
+        <input type="text" value="{{formacao}}" [(ngModel)]="formacao" placeholder="‎ ‎ Formação">
+    </div>
+    <button (click)="adicionar($event)">>Alterar</button>
+    <app-voltar></app-voltar>
+</div>
+

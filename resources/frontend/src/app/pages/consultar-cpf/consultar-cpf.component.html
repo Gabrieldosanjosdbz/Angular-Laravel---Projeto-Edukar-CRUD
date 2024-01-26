@@ -1,0 +1,12 @@
+<div class="container__alterar-cpf">
+    <div class="box1">
+        <h2>Digite o CPF do candidato que deseja consultar: </h2>
+        <input type="text" [(ngModel)]="cpf" placeholder="‎ ‎ CpfCnpf: ">
+    </div>
+
+    <div class="box2">
+        <app-voltar></app-voltar>
+        <!-- <button (click)="alterar()"><a [routerLink]="['consultado']">Consultar</a></button> -->
+        <button (click)="alterar()">>Consultar</button>
+    </div>
+</div>

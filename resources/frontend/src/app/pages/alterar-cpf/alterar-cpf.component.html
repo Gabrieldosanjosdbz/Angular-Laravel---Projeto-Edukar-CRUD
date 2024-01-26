@@ -1,0 +1,11 @@
+<div class="container__alterar-cpf">
+    <div class="box1">
+        <h2>Digite o CPF do candidato que deseja alterar: </h2>
+        <input type="text" [(ngModel)]="cpf" placeholder="‎ ‎ CpfCnpf: ">
+    </div>
+
+    <div class="box2">
+        <app-voltar></app-voltar>
+        <button (click)="alterar()">Alterar</button>
+    </div>
+</div>

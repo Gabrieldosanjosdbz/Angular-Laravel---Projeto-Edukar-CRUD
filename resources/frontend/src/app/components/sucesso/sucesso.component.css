@@ -1,0 +1,23 @@
+.cadastrado {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+}
+
+div h1::before{
+   content: "";
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   margin-right: 20px;
+   background-image: url('https://cdn-icons-png.flaticon.com/512/148/148767.png');
+   background-size: cover;
+}
+
+div h1 {
+    color: #169213;
+}

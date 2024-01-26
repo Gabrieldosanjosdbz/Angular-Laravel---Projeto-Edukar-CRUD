@@ -1,0 +1,21 @@
+<!-- SeuComponente.component.html -->
+
+<div class="inputs">
+    <div class="box">
+      <input type="text" [(ngModel)]="nome" placeholder="Nome">
+      <input type="text" [(ngModel)]="cpf" placeholder="CpfCnpf">
+    </div>
+  
+    <div class="box">
+      <input type="text" [(ngModel)]="dataNascimento" placeholder="Data de nascimento: dd/mm/aa">
+      <input type="text" [(ngModel)]="genero" placeholder="Gênero">
+    </div>
+  
+    <div class="box1">
+      <input type="text" [(ngModel)]="formacao" placeholder="Formação">
+    </div>
+  
+    <button (click)="adicionar()">Cadastrar</button>
+    <app-voltar></app-voltar>
+  </div>
+  
